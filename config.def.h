@@ -37,8 +37,8 @@ static const char dmenufont[]       = "NTR:size=12:antialias=true:autohint=true"
 /* Colors */
 static const char col_1[]        =   "#0B060F";
 static const char col_2[]        =   "#A2C0C6";
-static const char col_3[]        =   "#A2C0C6";
-static const char col_4[]        =   "#497687";
+static const char col_3[]        =   "#2B506D";
+static const char col_4[]        =   "#A2CAE3";
 static const char col_5[]        =   "#0B060F";
 static const char *colors[][3]      = {
 	/*               	fg	        bg	        border   */
@@ -98,7 +98,7 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] =             { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_1, "-nf", col_3, "-sb", col_5, "-sf", col_4, NULL };
-static const char *termcmd[]  =             { "kitty", NULL };
+static const char *termcmd[]  =             { "alacritty", NULL };
 static const char *cmdprintscreen[]  =      { "scrot", "-d3", "/home/vale/Pictures/Screenshots/%Y-%m-%d-%s_$wx$h.jpg", NULL };
 static const char *flameshotcmd[] =         { "flameshot", "gui", NULL }; 
 static const char *lockcmd[] =              { "betterlockscreen", "-l", "dimblur", "0.6", NULL };

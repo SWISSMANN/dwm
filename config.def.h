@@ -108,8 +108,8 @@ static Key keys[] = {
     /* modifier                         key                 function                argument */
 
 /* Basic Controls */
-    { ControlMask,                  XK_Return,               spawn,               {.v = roficmd } }, 
-    { ControlMask|ShiftMask,        XK_Return,               spawn,               {.v = dmenucmd } },
+    { ControlMask,                  XK_Return,               spawn,               {.v = dmenucmd } }, 
+    { ControlMask|ShiftMask,        XK_Return,               spawn,               {.v = roficmd } },
 	{ MODKEY|ShiftMask,             XK_Return,               spawn,               {.v = termcmd } },
 
 /* Normal Controls */

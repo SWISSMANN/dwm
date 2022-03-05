@@ -38,7 +38,7 @@ static const char col_1[]       = "#ffffff";
 static const char col_2[]       = "#444444";
 static const char col_3[]       = "#4f4f4f";
 static const char col_4[]       = "#000000";
-static const char col_5[]       = "#B8EBFF";
+static const char col_5[]       = "#8DB8E8";
 static const char *colors[][3]      = {
 	/*    		          fg		         bg		         border   */
 	[SchemeNorm] = {	col_3, 			col_1, 			 col_2 },
@@ -114,7 +114,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_l,      		setmfact,       {.f = +0.05} },
 	{ MODKEY,                       XK_Return, 		zoom,           {0} },
 	{ MODKEY,                       XK_Tab,    		view,           {0} },
-	{ MODKEY|ShiftMask,             XK_c,      		killclient,     {0} },
+	{ MODKEY|ShiftMask,             XK_e,      		killclient,     {0} },
 	{ MODKEY,                       XK_t,      		setlayout,      {.v = &layouts[0]} },
 	{ MODKEY,                       XK_f,      		setlayout,      {.v = &layouts[1]} },
 	{ MODKEY,                       XK_m,      		setlayout,      {.v = &layouts[2]} },
